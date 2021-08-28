@@ -1,8 +1,9 @@
 #include <iostream>
-#include "kernel/EventManager.h"
+#include <kernel/EventManager.h>
 
-int main()
+int main(int argc, char *argv[])
 {
-	std::cout << "Hello, World!" << std::endl;
-	return 0;
+	EventManager app(argc, argv);
+
+	return app.start();
 }
