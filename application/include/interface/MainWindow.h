@@ -1,8 +1,4 @@
-//
-// Created by vorkov on 28.08.2021.
-//
+#ifndef MYNOTE_MAINWINDOW
+#define MYNOTE_MAINWINDOW
 
-#ifndef MAINWINDOW_H
-#define MAINWINDOW_H
-
-#endif //MAINWINDOW_H
+#endif

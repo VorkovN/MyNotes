@@ -1,8 +1,4 @@
-//
-// Created by vorkov on 28.08.2021.
-//
+#ifndef MYNOTE_DATABASECONNECTOR
+#define MYNOTE_DATABASECONNECTOR
 
-#ifndef DATABASECONNECTOR_H
-#define DATABASECONNECTOR_H
-
-#endif //DATABASECONNECTOR_H
+#endif

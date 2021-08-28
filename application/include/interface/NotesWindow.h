@@ -1,8 +1,4 @@
-//
-// Created by vorkov on 28.08.2021.
-//
+#ifndef MYNOTE_NOTESWINDOW
+#define MYNOTE_NOTESWINDOW
 
-#ifndef NOTESWINDOW_H
-#define NOTESWINDOW_H
-
-#endif //NOTESWINDOW_H
+#endif

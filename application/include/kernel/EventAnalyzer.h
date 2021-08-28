@@ -1,8 +1,4 @@
-//
-// Created by vorkov on 28.08.2021.
-//
+#ifndef MYNOTE_EVENTANALYZER
+#define MYNOTE_EVENTANALYZER
 
-#ifndef EVENTANALYZER_H
-#define EVENTANALYZER_H
-
-#endif //EVENTANALYZER_H
+#endif

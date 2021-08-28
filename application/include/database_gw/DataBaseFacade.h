@@ -1,8 +1,4 @@
-//
-// Created by vorkov on 28.08.2021.
-//
+#ifndef MYNOTE_DATABASEFACADE
+#define MYNOTE_DATABASEFACADE
 
-#ifndef DATABASEFACADE_H
-#define DATABASEFACADE_H
-
-#endif //DATABASEFACADE_H
+#endif
