@@ -1,8 +1,13 @@
 #include "interface/MainWindow.h"
 
-MainWindow::MainWindow(QWidget *parent)
+namespace interface
 {
-}
-MainWindow::~MainWindow()
-{
+
+	MainWindow::MainWindow(QWidget *parent)
+	{
+	}
+	MainWindow::~MainWindow()
+	{
+	}
+
 }

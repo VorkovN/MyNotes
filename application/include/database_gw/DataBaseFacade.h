@@ -1,14 +1,18 @@
 #ifndef MYNOTE_DATABASEFACADE
 #define MYNOTE_DATABASEFACADE
 
-class DataBaseFacade
+namespace database_gw
 {
-public:
-	DataBaseFacade() = default;
-	~DataBaseFacade() = default;
 
-private:
+	class DataBaseFacade
+	{
+	public:
+		DataBaseFacade() = default;
+		~DataBaseFacade() = default;
 
-};
+	private:
 
+	};
+
+}
 #endif

@@ -6,18 +6,23 @@
 #include <interface/WindowManager.h>
 #include <database_gw/DataBaseFacade.h>
 
-class EventManager
+namespace kernel
 {
-public:
-	EventManager(int argc, char** argv);
-	~EventManager() = default;
 
-	int start();
+	class EventManager
+	{
+	public:
+		EventManager(int argc, char **argv);
+		~EventManager() = default;
 
-private:
-	WindowManager _windowManager;
-	EventAnalyzer _eventAnalyzer;
-	DataBaseFacade _dataBaseFacade;
-};
+		int start();
+
+	private:
+		interface::WindowManager _windowManager;
+		EventAnalyzer _eventAnalyzer;
+		database_gw::DataBaseFacade _dataBaseFacade;
+	};
+
+}
 
 #endif

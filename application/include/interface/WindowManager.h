@@ -5,17 +5,21 @@
 
 #include <interface/MainWindow.h>
 
-class WindowManager
+namespace interface
 {
-public:
-	WindowManager(int argc, char** argv);
-	~WindowManager() = default;
 
-	int start();
+	class WindowManager
+	{
+	public:
+		WindowManager(int argc, char **argv);
+		~WindowManager() = default;
 
-private:
-	QApplication _qApp;
-	MainWindow _mainWindow;
-};
+		int start();
 
+	private:
+		QApplication _qApp;
+		MainWindow _mainWindow;
+	};
+
+}
 #endif

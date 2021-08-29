@@ -1,14 +1,19 @@
 #ifndef MYNOTE_EVENTANALYZER
 #define MYNOTE_EVENTANALYZER
 
-class EventAnalyzer
+namespace kernel
 {
-public:
-	EventAnalyzer() = default;
-	~EventAnalyzer() = default;
 
-private:
+	class EventAnalyzer
+	{
+	public:
+		EventAnalyzer() = default;
+		~EventAnalyzer() = default;
 
-};
+	private:
+
+	};
+
+}
 
 #endif

@@ -3,18 +3,22 @@
 
 #include "QWidget"
 
-class MainWindow: public QWidget
+namespace interface
 {
-public:
-	explicit MainWindow(QWidget *parent = nullptr);
-	~MainWindow() override;
 
-private slots:
+	class MainWindow: public QWidget
+	{
+	public:
+		explicit MainWindow(QWidget *parent = nullptr);
+		~MainWindow() override;
+
+	private slots:
 
 
-private:
+	private:
 
+	};
 
-};
+}
 
 #endif
